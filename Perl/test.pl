@@ -3,6 +3,8 @@
 use strict;
 use warnings;
 
-print("<!DOCTYPE html>
+print 'content-type:text/html; charset=utf-8\n\n'
+
+print('<!DOCTYPE html>
 <html>
-<body style='background-color:red;'>");
+<body style="background-color:red;">');
